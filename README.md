@@ -94,4 +94,4 @@ TODO
 
 ### QQ 交流群
 
-<img src="https://raw.githubusercontent.com/didichuxing/go-spring/master/qq.png?token=ACFOLQD3TYNQR4IHHK6AKSK5RIDRY" width="140" height="*" />
+<img src="https://raw.githubusercontent.com/go-spring/go-spring-website/master/qq.png" width="140" height="*" />

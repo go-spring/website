@@ -1,5 +1,3 @@
-# Go-Spring
-
 Go-Spring 的目标是让 GoLang 程序员也能用上如 Java Spring 那般威力强大的编程框架。感谢 Java Spring。
 
 特性：

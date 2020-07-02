@@ -11,17 +11,6 @@ pages:
       title: 'Go-Spring Home'
       keywords: 'keyword1,keyword2'
       description: 'page description'
-  community:
-    # 社区页配置
-    zh-cn:
-      title: 'Go-Spring 社区'
-      keywords: '关键词1，关键词2'
-      description: '页面内容简介'
-    # community page config
-    en-us:
-      title: 'Go-Spring Community'
-      keywords: 'keyword1,keyword2'
-      description: 'page description'
   blog:
     # 博客列表页配置
     zh-cn:

@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Language from '../../components/language';
 import Header from '../../components/header';
-import Bar from '../../components/bar';
 import PageSlider from '../../components/pageSlider';
 import BlogItem from './blogItem';
 import Footer from '../../components/footer';
@@ -25,7 +24,6 @@ class Blog extends Language {
           language={language}
           onLanguageChange={this.onLanguageChange}
         />
-        <Bar img="/img/system/blog.png" text={dataSource.barText} />
         <section className="blog-container">
           <div className="col col-18 left-part">
             <PageSlider pageSize={5}>

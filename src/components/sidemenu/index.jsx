@@ -28,7 +28,6 @@ class SideMenu extends React.Component {
     });
     const itemCls = classnames({
       'menu-item': true,
-      'menu-item-level-1': true,
     });
     return (
       <div className={cls}>

@@ -2,7 +2,6 @@ export default {
     'en-us': {
         sidemenu: [
             {
-                title: 'DOCUMENTATION',
                 children: [
                     {
                         title: 'Quick Start',
@@ -26,7 +25,6 @@ export default {
     'zh-cn': {
         sidemenu: [
             {
-                title: '文档',
                 children: [
                     {
                         title: '快速开始',

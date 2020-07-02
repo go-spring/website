@@ -22,7 +22,7 @@
     .logo {
       margin-left: 40px;
       width: 96px;
-      vertical-align: sub;
+      vertical-align: baseline;
     }
     .header-menu {
       float: right;
@@ -44,7 +44,7 @@
     }
     .menu-item {
       font-family: Avenir-Heavy;
-      font-size: 14px;
+      font-size: 20px;
       vertical-align: bottom;
     }
     .menu-item-primary {
@@ -90,8 +90,8 @@
       box-sizing: border-box;
       width: 24px;
       height: 24px;
-      line-height: 20px;
-      margin-top: $headerHeight / 2 - 12px;
+      line-height: 23px;
+      margin-top: $headerHeight / 2 - 14px;
       margin-right: 40px;
       text-align: center;
       border-radius: 2px;

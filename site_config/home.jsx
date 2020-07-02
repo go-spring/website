@@ -3,7 +3,7 @@ import React from 'react';
 export default {
     'zh-cn': {
         brand: {
-            brandName: 'GO-SPRING',
+            brandName: 'Go-Spring',
             briefIntroduction: '基于 IoC 的一站式开发框架',
             buttons: [
                 {
@@ -12,7 +12,7 @@ export default {
                     type: 'primary',
                 },
                 {
-                    text: '查看Github',
+                    text: '查看 Github',
                     link: 'https://github.com/go-spring/go-spring',
                     type: 'normal',
                 },
@@ -21,8 +21,8 @@ export default {
     },
     'en-us': {
         brand: {
-            brandName: 'GO-SPRING',
-            briefIntroduction: 'One Stop Development Framework Based on IOC',
+            brandName: 'Go-Spring',
+            briefIntroduction: 'One Stop Web Framework on IoC',
             buttons: [
                 {
                     text: 'Quick Start',

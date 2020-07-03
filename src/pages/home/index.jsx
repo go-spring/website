@@ -64,10 +64,10 @@ class Home extends Language {
           <div className="animation animation4" />
           <div className="animation animation5" />
         </section>
-        <Footer logo="/img/go-spring-logo.png" language={language} />
+        <Footer logo="/img/mascot@256.png" language={language} />
       </div>
     );
-  }
+  }s
 }
 
 document.getElementById('root') && ReactDOM.render(<Home />, document.getElementById('root'));

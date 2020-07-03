@@ -14,7 +14,7 @@ export default {
             },
             {
                 key: 'docs',
-                text: 'Docs',
+                text: 'Documentation',
                 link: '/en-us/docs/quick-start.html',
             },
             {
@@ -23,10 +23,6 @@ export default {
                 link: '/en-us/blog/index.html',
             },
         ],
-        disclaimer: {
-            title: 'Disclaimer',
-            content: '',
-        },
         documentation: {
             title: 'Documentation',
             list: [
@@ -45,7 +41,7 @@ export default {
                 },
             ],
         },
-        copyright: 'Copyright ©2019',
+        copyright: '©2020 The Go-Spring Authors All Rights Reserved',
     },
     'zh-cn': {
         pageMenu: [
@@ -65,10 +61,6 @@ export default {
                 link: '/zh-cn/blog/index.html',
             },
         ],
-        disclaimer: {
-            title: '免责声明',
-            content: '',
-        },
         documentation: {
             title: '文档',
             list: [
@@ -87,6 +79,6 @@ export default {
                 },
             ],
         },
-        copyright: 'Copyright ©2019',
+        copyright: '©2020 The Go-Spring Authors 保留所有权利',
     },
 };

@@ -165,13 +165,15 @@ $animation5Height: 460px;
     }
   }
   @media screen and (max-width: $mobileWidth) {
-    .introduction-section {
-      padding: 0 20px;
-      &::before {
-        left: 20px;
-      }
-      &::after {
-        left: 19px;
+    .top-section {
+      .button-area {
+        .button {
+          display: block;
+          margin-right: 0;
+          margin-bottom: 12px;
+          width: 60%;
+          margin-left: 20%;
+        }
       }
     }
   }

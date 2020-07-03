@@ -13,9 +13,7 @@
     }
     img {
       // display: block;
-      width: 96px;
-      margin-bottom: 28px;
-      margin-right: 20px;
+      width: 128px;
       vertical-align: middle;
     }
     .cols-container {
@@ -31,6 +29,7 @@
       }
       .col-6 {
         width: 25%;
+        padding-top: 6px;
       }
       h3 {
         font-family: Avenir-Heavy;
@@ -51,7 +50,7 @@
       }
       dt {
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
         color: #333;
         margin-bottom: 20px;
       }
@@ -61,7 +60,7 @@
         a {
           text-decoration: none;
           display: block;
-          font-size: 14px;
+          font-size: 16px;
           color: #999;
           margin: 10px 0;
         }
@@ -76,7 +75,7 @@
       line-height: 20px;
       text-align: center;
       font-family: Avenir-Medium;
-      font-size: 12px;
+      font-size: 14px;
       color: #999;
       display: flex;
       align-items: center;
@@ -91,12 +90,21 @@
 @media screen and (max-width: $mobileWidth) {
   .footer-container {
     .footer-body {
+      img {
+        margin-bottom: 4px;
+      }
       .cols-container {
         .col {
           width: 100%;
           text-align: center;
           padding: 0;
         }
+        .col-6 {
+          padding-top: 24px;
+        }
+      }
+      .copyright {
+        font-size: 12px;
       }
     }
   }

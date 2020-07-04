@@ -5,6 +5,7 @@ import 'whatwg-fetch'; // fetch polyfill
 import path from 'path';
 import Language from '../../components/language';
 import Header from '../../components/header';
+import Bar from '../../components/bar';
 import Sidemenu from '../../components/sidemenu';
 import Footer from '../../components/footer';
 import docsConfig from '../../../site_config/docs';
@@ -97,6 +98,7 @@ class Documentation extends Language {
           language={language}
           onLanguageChange={this.onLanguageChange}
         />
+        <Bar img="/img/system/docs.png" text={dataSource.barText} />
         <section className="content-section">
           <Sidemenu dataSource={dataSource.sidemenu} />
           <div
@@ -105,7 +107,7 @@ class Documentation extends Language {
             dangerouslySetInnerHTML={{ __html }}
           />
         </section>
-        <Footer logo="/img/go-spring-logo.png" language={language} />
+        <Footer logo="/img/mascot@256.png" language={language} />
       </div>
     );
   }

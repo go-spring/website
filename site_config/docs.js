@@ -2,6 +2,7 @@ export default {
     'en-us': {
         sidemenu: [
             {
+                title: 'User Documentation',
                 children: [
                     {
                         title: 'Quick Start',
@@ -19,12 +20,17 @@ export default {
                     },
                 ],
             },
+            {
+                title: 'Developer Guide',
+                children: [],
+            },
         ],
         barText: 'Documentation',
     },
     'zh-cn': {
         sidemenu: [
             {
+                title: '用户文档',
                 children: [
                     {
                         title: '快速开始',
@@ -41,6 +47,10 @@ export default {
                         ],
                     },
                 ],
+            },
+            {
+                title: '开发者指南',
+                children: [],
             },
         ],
         barText: '文档',

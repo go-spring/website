@@ -4,10 +4,10 @@
 
 .documentation-page {
   .content-section {
-    margin-top: $headerHeight;
     max-width: $contentWidth;
+    margin: 0 auto;
     box-sizing: border-box;
-    padding: 4px 40px 60px;
+    padding: 40px 40px 60px;
     position: relative;
     min-height: 1100px;
     .doc-content {
@@ -30,7 +30,7 @@
       position: absolute;
       z-index: 100;
       left: -4px;
-      top: 30px;
+      top: 20px;
     }
   }
 }

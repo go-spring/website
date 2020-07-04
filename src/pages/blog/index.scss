@@ -3,8 +3,8 @@
 
 .blog-list-page {
   .blog-container {
-    margin-top: $headerHeight;
     max-width: $contentWidth;
+    margin: 0 auto;
     box-sizing: border-box;
     padding: 50px 8% 80px;
     .col {

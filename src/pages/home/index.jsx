@@ -67,7 +67,7 @@ class Home extends Language {
         <Footer logo="/img/mascot@256.png" language={language} />
       </div>
     );
-  }s
+  }
 }
 
 document.getElementById('root') && ReactDOM.render(<Home />, document.getElementById('root'));

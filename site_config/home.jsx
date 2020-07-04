@@ -22,7 +22,7 @@ export default {
     'en-us': {
         brand: {
             brandName: 'Go-Spring',
-            briefIntroduction: 'One Stop Web Framework on IoC',
+            briefIntroduction: 'One-Stop Development Framework on IoC',
             buttons: [
                 {
                     text: 'Quick Start',

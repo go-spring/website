@@ -7,6 +7,7 @@ import Footer from '../../components/footer';
 import Language from '../../components/language';
 import homeConfig from '../../../site_config/home';
 import './index.scss';
+import Item from './featureItem';
 
 class Home extends Language {
 
@@ -63,6 +64,16 @@ class Home extends Language {
           <div className="animation animation3" />
           <div className="animation animation4" />
           <div className="animation animation5" />
+        </section>
+        <section className="feature-section">
+          <h3>{dataSource.features.title}</h3>
+          <ul>
+            {
+              dataSource.features.list.map((feature, i) => (
+                  <Item feature={feature} key={i} />
+              ))
+            }
+          </ul>
         </section>
         <Footer logo="/img/mascot@256.png" language={language} />
       </div>

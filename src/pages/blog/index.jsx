@@ -21,7 +21,7 @@ class Blog extends Language {
         <Header
           type="normal"
           currentKey="blog"
-          logo="/img/go-spring-logo.png"
+          logo="/img/logo@s.png"
           language={language}
           onLanguageChange={this.onLanguageChange}
         />

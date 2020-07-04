@@ -94,7 +94,7 @@ class Documentation extends Language {
         <Header
           currentKey="docs"
           type="normal"
-          logo="/img/go-spring-logo.png"
+          logo="/img/logo@s.png"
           language={language}
           onLanguageChange={this.onLanguageChange}
         />

@@ -16,8 +16,8 @@
     height: 66px;
     line-height: 66px; }
     .header-container .header-body .logo {
-      margin-left: 40px;
-      width: 96px;
+      margin-left: 44px;
+      width: 120px;
       vertical-align: baseline; }
     .header-container .header-body .header-menu {
       float: right; }
@@ -3220,8 +3220,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   margin: 0 auto;
   box-sizing: border-box;
   padding: 40px 40px 60px;
-  position: relative;
-  min-height: 1100px; }
+  position: relative; }
   .documentation-page .content-section .doc-content {
     display: inline-block;
     vertical-align: top;

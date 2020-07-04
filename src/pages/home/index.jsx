@@ -36,7 +36,7 @@ class Home extends Language {
     const language = this.getLanguage();
     const dataSource = homeConfig[language];
     const { headerType } = this.state;
-    const headerLogo = headerType === 'primary' ? '/img/go-spring-logo.png' : '/img/go-spring-logo.png';
+    const headerLogo = '/img/logo@s.png';
     return (
       <div className="home-page">
         <section className="top-section">

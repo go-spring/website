@@ -5,24 +5,27 @@ export default {
                 title: 'User Documentation',
                 children: [
                     {
+                        title: 'Introduction',
+                        link: '/en-us/docs/introduction.html',
+                    },
+                    {
                         title: 'Quick Start',
                         link: '/en-us/docs/quick-start.html',
                     },
                     {
-                        title: 'Spring IoC',
-                        opened: true,
-                        children: [
-                            {
-                                title: 'Overview',
-                                link: '/en-us/docs/spring-ioc/overview.html',
-                            },
-                        ],
+                        title: 'Demos',
+                        link: '/en-us/docs/demos.html',
                     },
                 ],
             },
             {
                 title: 'Developer Guide',
-                children: [],
+                children: [
+                    {
+                        title: 'Architecture',
+                        link: '/en-us/docs/architecture.html',
+                    },
+                ],
             },
         ],
         barText: 'Documentation',
@@ -33,24 +36,27 @@ export default {
                 title: '用户文档',
                 children: [
                     {
+                        title: '简介',
+                        link: '/zh-cn/docs/introduction.html',
+                    },
+                    {
                         title: '快速开始',
                         link: '/zh-cn/docs/quick-start.html',
                     },
                     {
-                        title: 'Spring IoC',
-                        opened: true,
-                        children: [
-                            {
-                                title: '简介',
-                                link: '/zh-cn/docs/spring-ioc/overview.html',
-                            },
-                        ],
+                        title: '示例',
+                        link: '/zh-cn/docs/demos.html',
                     },
                 ],
             },
             {
                 title: '开发者指南',
-                children: [],
+                children: [
+                    {
+                        title: '框架原理',
+                        link: '/zh-cn/docs/architecture.html',
+                    },
+                ],
             },
         ],
         barText: '文档',

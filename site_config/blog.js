@@ -1,7 +1,7 @@
 export default {
     'en-us': {
         barText: 'Blog',
-        postsTitle: 'All posts',
+        postsTitle: 'All Posts',
         list: [
             {
                 title: 'Go-Spring v1.0.0 Published',

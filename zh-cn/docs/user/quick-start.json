@@ -1,0 +1,8 @@
+{
+  "filename": "quick-start.md",
+  "__html": "<h1>快速开始</h1>\n<p>Go-Spring 当前使用 <code>Go1.12</code> 进行开发，使用 <code>Go Modules</code> 进行依赖管理。</p>\n<p><strong>安装</strong></p>\n<pre><code>go get github.com/go-spring/go-spring\n</code></pre>\n<p><strong>创建 <code>server.go</code></strong></p>\n<pre><code>package main\n\nimport (\n\t&quot;github.com/go-spring/go-spring/spring-boot&quot;\n\t_ &quot;github.com/go-spring/go-spring/starter-echo&quot;\n)\n\nfunc init() {\n\tSpringBoot.RegisterBean(new(Echo)).Init(func(e *Echo) {\n\t\tSpringBoot.GetBinding(&quot;/&quot;, e.Call)\n\t})\n}\n\ntype Echo struct {\n\tGoPath string `value:&quot;${GOPATH}&quot;`\n}\n\nfunc (e *Echo) Call() string {\n\treturn e.GoPath\n}\n\nfunc main() {\n\tSpringBoot.RunApplication()\n}\n</code></pre>\n<p><strong>运行程序</strong></p>\n<pre><code>go run server.go\n</code></pre>\n<p>控制台输入 <code>curl http://127.0.0.1:8080/</code>， 可得到如下结果：</p>\n<pre><code>{&quot;code&quot;:200,&quot;msg&quot;:&quot;SUCCESS&quot;,&quot;data&quot;:&quot;/Users/didi/go&quot;}\n</code></pre>\n",
+  "link": "/zh-cn/docs/user/quick-start.html",
+  "meta": {
+    "title": "快速开始"
+  }
+}

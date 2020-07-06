@@ -8,7 +8,7 @@ export default {
             buttons: [
                 {
                     text: '快速开始',
-                    link: '/zh-cn/docs/quick-start.html',
+                    link: '/zh-cn/docs/user/quick-start.html',
                     type: 'primary',
                 },
                 {
@@ -51,7 +51,7 @@ export default {
             buttons: [
                 {
                     text: 'Quick Start',
-                    link: '/en-us/docs/quick-start.html',
+                    link: '/en-us/docs/user/quick-start.html',
                     type: 'primary',
                 },
                 {

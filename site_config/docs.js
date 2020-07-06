@@ -10,7 +10,7 @@ export default {
                     },
                     {
                         title: 'Quick Start',
-                        link: '/en-us/docs/quick-start.html',
+                        link: '/en-us/docs/user/quick-start.html',
                     },
                     {
                         title: 'Demos',
@@ -41,7 +41,7 @@ export default {
                     },
                     {
                         title: '快速开始',
-                        link: '/zh-cn/docs/quick-start.html',
+                        link: '/zh-cn/docs/user/quick-start.html',
                     },
                     {
                         title: '示例',

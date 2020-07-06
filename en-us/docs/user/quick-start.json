@@ -1,0 +1,8 @@
+{
+  "filename": "quick-start.md",
+  "__html": "<h1>Quick Start</h1>\n<p>Go-Spring was developed with <code>Go1.12</code> and using <code>Go Modules</code> for dependency management.</p>\n<p><strong>Installation</strong></p>\n<pre><code>go get github.com/go-spring/go-spring\n</code></pre>\n<p><strong>Create <code>server.go</code></strong></p>\n<pre><code>package main\n\nimport (\n\t&quot;github.com/go-spring/go-spring/spring-boot&quot;\n\t_ &quot;github.com/go-spring/go-spring/starter-echo&quot;\n)\n\nfunc init() {\n\tSpringBoot.RegisterBean(new(Echo)).Init(func(e *Echo) {\n\t\tSpringBoot.GetBinding(&quot;/&quot;, e.Call)\n\t})\n}\n\ntype Echo struct {\n\tGoPath string `value:&quot;${GOPATH}&quot;`\n}\n\nfunc (e *Echo) Call() string {\n\treturn e.GoPath\n}\n\nfunc main() {\n\tSpringBoot.RunApplication()\n}\n</code></pre>\n<p><strong>Start server</strong></p>\n<pre><code>go run server.go\n</code></pre>\n<p>Enter <code>curl http://127.0.0.1:8080/</code> in console, and you will get：</p>\n<pre><code>{&quot;code&quot;:200,&quot;msg&quot;:&quot;SUCCESS&quot;,&quot;data&quot;:&quot;/Users/didi/go&quot;}\n</code></pre>\n",
+  "link": "/en-us/docs/user/quick-start.html",
+  "meta": {
+    "title": "Quick Start"
+  }
+}

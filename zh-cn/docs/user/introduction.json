@@ -1,0 +1,8 @@
+{
+  "filename": "introduction.md",
+  "__html": "<h1>简介</h1>\n<p>Go-Spring 的愿景是让 Go 程序员也能用上如 Java Spring 那般威力强大的编程框架，所以正如它的名字昭示的那样 Go-Spring 从 Java Spring 借鉴了大量优秀的开发思想。目前，Spring 家族的两大基础特性 <code>IoC</code> 容器和 <code>Boot</code> 框架均已实现，而 <code>AOP</code> 功能受限于 Go 的语言特性暂时无法实现。Go-Spring 对后端开发中常用的模块进行了封装，这些模块通过 <code>Starter</code> 机制仅仅只需一行代码即可快速使用。</p>\n<p>详细特性列表如下：</p>\n<ol>\n<li>支持对象(包括数组、函数、通道等)、构造函数、成员方法三种形式注册 Bean；</li>\n<li>支持对 <code>SpringContext</code> (IoC 容器) 内的 Bean 进行依赖注入和属性绑定；</li>\n<li>支持对用户指定 (IoC 容器外) 的 Bean 进行依赖注入和属性绑定；</li>\n<li>支持 API 形式获取 (<code>GetBean</code>) 和查询 (<code>FindBean</code>) Bean；</li>\n<li>支持自动和指定两种收集模式，指定模式可以对收集到的 Bean 进行排序；</li>\n<li>支持配置函数，配置函数和函数式 Bean 的区别是配置函数不返回 Bean；</li>\n<li>支持从命令行参数、系统环境变量、应用配置文件等多个地方获取配置项；</li>\n<li>支持 <code>Starter</code> 机制和多种 <code>Condition</code>，灵活定义模块的导出 Bean；</li>\n<li>支持 <code>echo</code> 和 <code>gin</code> 无缝切换，并且支持原生的 <code>echo</code> 或 <code>gin</code> 中间件；</li>\n</ol>\n<p>等等。</p>\n",
+  "link": "/zh-cn/docs/user/introduction.html",
+  "meta": {
+    "title": "简介"
+  }
+}

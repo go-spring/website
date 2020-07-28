@@ -6,7 +6,7 @@ export default {
                 children: [
                     {
                         title: 'Introduction',
-                        link: '/en-us/docs/introduction.html',
+                        link: '/en-us/docs/user/introduction.html',
                     },
                     {
                         title: 'Quick Start',
@@ -37,7 +37,7 @@ export default {
                 children: [
                     {
                         title: '简介',
-                        link: '/zh-cn/docs/introduction.html',
+                        link: '/zh-cn/docs/user/introduction.html',
                     },
                     {
                         title: '快速开始',

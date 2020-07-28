@@ -8,6 +8,13 @@
       }
     },
     {
+      "filename": "introduction.md",
+      "link": "/en-us/docs/user/introduction.html",
+      "meta": {
+        "title": "Introduction"
+      }
+    },
+    {
       "filename": "quick-start.md",
       "link": "/en-us/docs/user/quick-start.html",
       "meta": {
@@ -19,6 +26,13 @@
     {
       "filename": "overview.md",
       "link": "/zh-cn/docs/spring-ioc/overview.html",
+      "meta": {
+        "title": "简介"
+      }
+    },
+    {
+      "filename": "introduction.md",
+      "link": "/zh-cn/docs/user/introduction.html",
       "meta": {
         "title": "简介"
       }

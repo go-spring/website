@@ -4,8 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta name="keywords" content="overview" />
-	<meta name="description" content="overview" />
+	<meta name="keywords" content="introduction" />
+	<meta name="description" content="introduction" />
 	<!-- 网页标签标题 -->
 	<title>简介</title>
 	<link rel="shortcut icon" href="/img/favorite.ico"/>
@@ -13,6 +13,20 @@
 </head>
 <body>
 	<div id="root"><div class="documentation-page" data-reactroot=""><header class="header-container header-container-normal"><div class="header-body"><a href="/zh-cn/index.html"><img class="logo" src="/img/logo@s.png"/></a><div class="search search-normal"><span class="icon-search"></span></div><span class="language-switch language-switch-normal">En</span><div class="header-menu"><img class="header-menu-toggle" src="/img/system/menu_gray.png"/><ul><li class="menu-item menu-item-normal"><a href="/zh-cn/index.html" target="_self">首页</a></li><li class="menu-item menu-item-normal menu-item-normal-active"><a href="/zh-cn/docs/user/quick-start.html" target="_self">文档</a></li><li class="menu-item menu-item-normal"><a href="/zh-cn/blog/index.html" target="_self">博客</a></li></ul></div></div></header><div class="bar"><div class="bar-body"><img src="/img/system/docs.png" class="front-img"/><span>文档</span><img src="/img/system/docs.png" class="back-img"/></div></div><section class="content-section"><div class="sidemenu"><div class="sidemenu-toggle"><img src="https://img.alicdn.com/tfs/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png"/></div><ul><li class="menu-item menu-item-level-1"><span>用户文档</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/user/introduction.html" target="_self">简介</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/user/quick-start.html" target="_self">快速开始</a></li><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/demos.html" target="_self">示例</a></li></ul></li><li class="menu-item menu-item-level-1"><span>开发者指南</span><ul><li style="height:36px;overflow:hidden" class="menu-item menu-item-level-2"><a href="/zh-cn/docs/architecture.html" target="_self">框架原理</a></li></ul></li></ul></div><div class="doc-content markdown-body"><h1>简介</h1>
+<p>Go-Spring 的愿景是让 Go 程序员也能用上如 Java Spring 那般威力强大的编程框架，所以正如它的名字昭示的那样 Go-Spring 从 Java Spring 借鉴了大量优秀的开发思想。目前，Spring 家族的两大基础特性 <code>IoC</code> 容器和 <code>Boot</code> 框架均已实现，而 <code>AOP</code> 功能受限于 Go 的语言特性暂时无法实现。Go-Spring 对后端开发中常用的模块进行了封装，这些模块通过 <code>Starter</code> 机制仅仅只需一行代码即可快速使用。</p>
+<p>详细特性列表如下：</p>
+<ol>
+<li>支持对象(包括数组、函数、通道等)、构造函数、成员方法三种形式注册 Bean；</li>
+<li>支持对 <code>SpringContext</code> (IoC 容器) 内的 Bean 进行依赖注入和属性绑定；</li>
+<li>支持对用户指定 (IoC 容器外) 的 Bean 进行依赖注入和属性绑定；</li>
+<li>支持 API 形式获取 (<code>GetBean</code>) 和查询 (<code>FindBean</code>) Bean；</li>
+<li>支持自动和指定两种收集模式，指定模式可以对收集到的 Bean 进行排序；</li>
+<li>支持配置函数，配置函数和函数式 Bean 的区别是配置函数不返回 Bean；</li>
+<li>支持从命令行参数、系统环境变量、应用配置文件等多个地方获取配置项；</li>
+<li>支持 <code>Starter</code> 机制和多种 <code>Condition</code>，灵活定义模块的导出 Bean；</li>
+<li>支持 <code>echo</code> 和 <code>gin</code> 无缝切换，并且支持原生的 <code>echo</code> 或 <code>gin</code> 中间件；</li>
+</ol>
+<p>等等。</p>
 </div></section><footer class="footer-container"><div class="footer-body"><div class="cols-container"><div class="col col-12"><img src="/img/mascot@256.png"/></div><div class="col col-6"><dl><dt>文档</dt><dd><a href="/zh-cn/docs/user/quick-start.html" target="_self">快速开始</a></dd></dl></div><div class="col col-6"><dl><dt>资源</dt><dd><a href="/zh-cn/blog/index.html" target="_self">博客</a></dd></dl></div></div><div class="copyright"><span>©2020 The Go-Spring Authors 保留所有权利</span></div></div></footer></div></div>
 	<script src="https://f.alicdn.com/react/15.4.1/react-with-addons.min.js"></script>
 	<script src="https://f.alicdn.com/react/15.4.1/react-dom.min.js"></script>
